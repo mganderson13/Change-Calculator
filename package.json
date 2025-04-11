@@ -1,5 +1,5 @@
 {
-    "name": "fullstack_template",
+    "name": "classroom_cash_register",
     "private": true,
     "version": "0.0.0",
     "main": "src/server/index.js",

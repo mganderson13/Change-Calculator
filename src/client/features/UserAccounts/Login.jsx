@@ -25,6 +25,7 @@ const Login = () => {
 
   return (
     <>
+    <div>
       <div className="loginHeader">
         <h1>Login</h1>
         <p>Log in to your store, or register to create a new store</p>
@@ -54,6 +55,7 @@ const Login = () => {
         <p>Don't have a store yet? Register here:</p>
         <button onClick={() => navigate("/register")}>Register</button>
       </div>
+    </div>
     </>
   );
 };

@@ -73,8 +73,7 @@ const EditUserStore = () => {
 
   return (
     <>
-      <body>
-        {/* <p>{storeData.name}</p> */}
+      <div className="edit_store_container">
         <div className="editHeader">
           <h1>Welcome to your Store, {username}</h1>
         </div>
@@ -158,7 +157,7 @@ const EditUserStore = () => {
             </footer>
           </>
         )}
-      </body>
+      </div>
     </>
   );
 };

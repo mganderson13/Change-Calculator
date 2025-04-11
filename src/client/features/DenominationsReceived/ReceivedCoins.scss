@@ -1,4 +1,4 @@
-body {
+.received_coins_container {
     display: flex;
     align-items: center;
     // min-height: 100vh;
@@ -42,7 +42,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    width: 15em;
+    width: 16em;
     margin: 1em;
   
     img {
@@ -60,6 +60,7 @@ body {
   
     p {
       font-size: 30px;
+      min-width: 48px;
     }
   
     .remove-button {

@@ -53,7 +53,7 @@ const CashRegister = () => {
     <h2>Loading...</h2>
   ) : (
     <>
-      <body>
+    <div>
         <section className="header">
           <h1>Welcome to your store!</h1>
           <p>Click on an item to add it to your cart.</p>
@@ -89,7 +89,7 @@ const CashRegister = () => {
           <h1 className="popup-header">Greet the customer:</h1>
           <p className="popup-para">Hello, how can I help you today?</p>
         </Popup>
-      </body>
+    </div>
     </>
   );
 };

@@ -81,7 +81,7 @@ const ReceivedCoins = () => {
 
   return (
     <>
-      <body>
+      <div className="received_coins_container">
         <div className="receivedCoinHeader">
           <h1 className="receivedHeaderText">Received Coins</h1>
           <p>Click on each coin that you received from the customer</p>
@@ -128,7 +128,7 @@ const ReceivedCoins = () => {
             more cash. Thanks!
           </p>
         </Popup>
-      </body>
+      </div>
     </>
   );
 };
