@@ -120,14 +120,13 @@ const ReceivedCoins = () => {
           <button onClick={() => navigate("/received-bills")}>Back</button>
           <button onClick={handleClick}>Next</button>
         </footer>
-        {/* Popup: */}
-        <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+        {/* <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
           <h1 className="popup-header">Tell the customer:</h1>
           <p className="popup-para">
             It looks like the cost is more than what you paid, please provide
             more cash. Thanks!
           </p>
-        </Popup>
+        </Popup> */}
       </div>
     </>
   );

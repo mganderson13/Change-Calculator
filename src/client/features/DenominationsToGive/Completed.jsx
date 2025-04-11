@@ -17,7 +17,7 @@ const Completed = () => {
       <div className="message">
         <h1 className="finished_h1">Finished!</h1>
         <h2 className="finished_h2">
-          Tell the customer: <br /> Have a great day!
+          {/* Tell the customer: <br /> */}Have a great day! 
         </h2>
         <div className="completed_buttons">
         <button onClick={() => navigate("/total-change")}>Back</button>
